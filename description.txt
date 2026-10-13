@@ -1,0 +1,46 @@
+# Diamond Price Prediction Using KNN
+
+## Project Description
+This project predicts the price of a diamond based on its physical characteristics and quality attributes using the K-Nearest Neighbors (KNN) Regression algorithm.
+
+The dataset contains information about diamonds, including carat, cut, color, clarity, depth, table, and dimensions (x, y, z). These features are used to train a machine learning model that estimates diamond prices.
+
+## Dataset Description
+The dataset contains the following columns:
+
+- **carat:** Weight of the diamond.
+- **cut:** Quality of the diamond's cut.
+- **color:** Color grade of the diamond.
+- **clarity:** Clarity grade of the diamond.
+- **depth:** Total depth percentage.
+- **table:** Width of the diamond's top surface relative to its widest point.
+- **x:** Length in millimeters.
+- **y:** Width in millimeters.
+- **z:** Depth in millimeters.
+- **price:** Price of the diamond.
+
+## Project Workflow
+1. Load the dataset using Pandas.
+2. Explore and clean the data.
+3. Separate the input features (X) and target variable (price).
+4. Encode categorical features.
+5. Scale numerical features.
+6. Split the dataset into training and testing sets (75:25).
+7. Train a KNN Regressor model.
+8. Evaluate the model using MAE, RMSE, and R² score.
+9. Save the trained model using Pickle.
+10. Deploy the model using Streamlit.
+
+## Technologies Used
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Pickle
+- Streamlit
+
+## Expected Outcome
+The application allows users to enter diamond characteristics and receive an estimated diamond price based on the trained machine learning model.
+
+## Note
+The predicted price is an estimate and may differ from actual market prices.
