@@ -183,7 +183,7 @@ Through this project, I gained practical experience in:
 
 ## 👩‍💻 Author
 
-**Khushi Panda**
+**Bidyashree Panda**
 
 Aspiring Data Scientist | Machine Learning Enthusiast
 
